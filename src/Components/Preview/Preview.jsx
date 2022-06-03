@@ -220,7 +220,7 @@ export default function Preview({ diffLvl, setDiffPreview, setDiffLvl, setIsItBe
                 </ContentContainer>
                 <ButtonContainer>
                     <CustomNavLink
-                        to="/search-for-waldo-app/main"
+                        to="/where-is-waldo/main"
                         toggle={toggleTransitionalEffect}
                         onClick={() => startWaldoGame(assets, characterAssets)}
                     >

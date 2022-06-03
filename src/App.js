@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useMemo } from 'react';
-import Nav from './Components/Top_Nav/Top_Nav';
+import Nav from './Components/Header';
 
 export const ImagesContext = React.createContext(null);
 

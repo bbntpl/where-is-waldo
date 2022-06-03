@@ -17,7 +17,7 @@ import {
     LinkStyled,
     TopNavLogo,
     ProfileWrapper
-} from './Top_Nav_Styled';
+} from './Header_Styled';
 
 //components
 import DifficultySelector from '../Start';
@@ -69,14 +69,14 @@ export default function Nav({ isItBeforeThePuzzle, setIsItBeforeThePuzzle, user,
                 <div ref={elementRef} >
                     {isComponentVisible ? <Leaderboard level={importAssets(levelInfo)} /> : null}
                 </div>
-                <Route path="/search-for-waldo-app/" exact>
+                <Route path="/where-is-waldo" exact>
                     <DifficultySelector
                         user={user}
                         setUser={setUser}
                         setIsItBeforeThePuzzle={setIsItBeforeThePuzzle}
                     />
                 </Route>
-                <Route path="/search-for-waldo-app/main" exact>
+                <Route path="/where-is-waldo/main" exact>
                     <Main setIsItBeforeThePuzzle={setIsItBeforeThePuzzle} />
                 </Route>
             </>
@@ -89,7 +89,7 @@ function returnToStart(start, setStart) {
         return (
             <LinkStyled>
                 <FontAwesomeIcon icon={['far', 'arrow-alt-circle-left']} />
-                <Link to="/search-for-waldo-app/" onClick={() => setStart(true)}>Go back</Link>
+                <Link to="/where-is-waldo/" onClick={() => setStart(true)}>Go back</Link>
             </LinkStyled>
         )
     }

@@ -108,12 +108,12 @@ export function Score({ timerResult, totalAttempts, toggleScoreResult, setIsItBe
                                     </table>
                                 </>
                             </UserScores>
-                            <RestartBtn to="/search-for-waldo-app/" onClick={() => handleRestart()}>{'Restart'}</RestartBtn>
+                            <RestartBtn to="/where-is-waldo/" onClick={() => handleRestart()}>{'Restart'}</RestartBtn>
                         </ModalMainDisplay> :
                         <ModalMainDisplay>
                             <p>{`Total duration: ${timerResult}`}</p>
                             <p>{`Total failed attempts: ${totalAttempts}`}</p>
-                            <RestartBtn to="/search-for-waldo-app/" onClick={() => handleRestart()}>{'Restart'}</RestartBtn>
+                            <RestartBtn to="/where-is-waldo/" onClick={() => handleRestart()}>{'Restart'}</RestartBtn>
                         </ModalMainDisplay>
                 }
             </Modal>
