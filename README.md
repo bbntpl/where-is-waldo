@@ -1,4 +1,4 @@
-**Where is Waldo? V1**
+# Where is Waldo? V1
 Click [here](https://bvrbryn445.github.io/where-is-waldo/) to access live demo.
 
 ### Features
