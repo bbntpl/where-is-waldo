@@ -1,5 +1,5 @@
 # Where is Waldo? V1
-Click [here](https://bvrbryn445.github.io/where-is-waldo/) to access live demo.
+Click [here](https://bbntpl.github.io/where-is-waldo/) to access live demo.
 
 ### Features
 * Leaderboards is a displayable component featuring a read and write communication with realtime database.
